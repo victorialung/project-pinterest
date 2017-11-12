@@ -1,0 +1,46 @@
+/*estandarizamos a cero todos  los estilos por default que tiene la hoja de estilos CSS*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.header-nav{
+    margin: 0;
+    padding: 0;
+}
+
+.first-nav{
+    padding: 10px 0;
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.first-nav li{
+    display: inline-block;
+}
+
+.second-nav{
+    padding: 10px 0;
+    width: 100%;
+    margin: 0;
+}
+
+.second-nav div{
+    display: inline-block;
+}
